@@ -1,0 +1,30 @@
+[2025-06-05T19:38:31.343+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_processing.process_iris_data manual__2025-06-05T19:38:27.246484+00:00 [queued]>
+[2025-06-05T19:38:31.353+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_processing.process_iris_data manual__2025-06-05T19:38:27.246484+00:00 [queued]>
+[2025-06-05T19:38:31.354+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-06-05T19:38:31.370+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): process_iris_data> on 2025-06-05 19:38:27.246484+00:00
+[2025-06-05T19:38:31.376+0000] {standard_task_runner.py:60} INFO - Started process 97625 to run task
+[2025-06-05T19:38:31.381+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'data_processing', 'process_iris_data', 'manual__2025-06-05T19:38:27.246484+00:00', '--job-id', '181', '--raw', '--subdir', 'DAGS_FOLDER/postgresql_data_processing.py', '--cfg-path', '/tmp/tmpxv1noa34']
+[2025-06-05T19:38:31.389+0000] {standard_task_runner.py:88} INFO - Job 181: Subtask process_iris_data
+[2025-06-05T19:38:31.679+0000] {task_command.py:423} INFO - Running <TaskInstance: data_processing.process_iris_data manual__2025-06-05T19:38:27.246484+00:00 [running]> on host 130e285787a3
+[2025-06-05T19:38:31.784+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Pavan Kumar Kodavali' AIRFLOW_CTX_DAG_ID='data_processing' AIRFLOW_CTX_TASK_ID='process_iris_data' AIRFLOW_CTX_EXECUTION_DATE='2025-06-05T19:38:27.246484+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-05T19:38:27.246484+00:00'
+[2025-06-05T19:38:31.804+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/postgresql_data_processing.py", line 33, in process_iris_data
+    df_iris = pd.DataFrame(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 798, in __init__
+    mgr = ndarray_to_mgr(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/internals/construction.py", line 337, in ndarray_to_mgr
+    _check_values_indices_shape_match(values, index, columns)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/internals/construction.py", line 408, in _check_values_indices_shape_match
+    raise ValueError(f"Shape of passed values is {passed}, indices imply {implied}")
+ValueError: Shape of passed values is (6, 1), indices imply (6, 6)
+[2025-06-05T19:38:31.830+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=data_processing, task_id=process_iris_data, execution_date=20250605T193827, start_date=20250605T193831, end_date=20250605T193831
+[2025-06-05T19:38:31.851+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 181 for task process_iris_data (Shape of passed values is (6, 1), indices imply (6, 6); 97625)
+[2025-06-05T19:38:31.882+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-06-05T19:38:31.904+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

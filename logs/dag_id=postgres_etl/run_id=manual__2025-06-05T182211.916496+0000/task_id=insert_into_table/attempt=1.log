@@ -1,0 +1,59 @@
+[2025-06-05T18:22:17.025+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: postgres_etl.insert_into_table manual__2025-06-05T18:22:11.916496+00:00 [queued]>
+[2025-06-05T18:22:17.036+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: postgres_etl.insert_into_table manual__2025-06-05T18:22:11.916496+00:00 [queued]>
+[2025-06-05T18:22:17.037+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-06-05T18:22:17.051+0000] {taskinstance.py:2191} INFO - Executing <Task(PostgresOperator): insert_into_table> on 2025-06-05 18:22:11.916496+00:00
+[2025-06-05T18:22:17.058+0000] {standard_task_runner.py:60} INFO - Started process 23381 to run task
+[2025-06-05T18:22:17.061+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'postgres_etl', 'insert_into_table', 'manual__2025-06-05T18:22:11.916496+00:00', '--job-id', '156', '--raw', '--subdir', 'DAGS_FOLDER/postgres_etl.py', '--cfg-path', '/tmp/tmp_c5n16x3']
+[2025-06-05T18:22:17.064+0000] {standard_task_runner.py:88} INFO - Job 156: Subtask insert_into_table
+[2025-06-05T18:22:17.313+0000] {task_command.py:423} INFO - Running <TaskInstance: postgres_etl.insert_into_table manual__2025-06-05T18:22:11.916496+00:00 [running]> on host 130e285787a3
+[2025-06-05T18:22:17.459+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Pavan Kumar Kodavali' AIRFLOW_CTX_DAG_ID='postgres_etl' AIRFLOW_CTX_TASK_ID='insert_into_table' AIRFLOW_CTX_EXECUTION_DATE='2025-06-05T18:22:11.916496+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-05T18:22:11.916496+00:00'
+[2025-06-05T18:22:17.461+0000] {sql.py:276} INFO - Executing: 
+                create temp table iris_staging(
+                iris_id real primary key,
+                iris_sepal_length real,
+                iris_sepal_width real,
+                iris_petal_length real,
+                iris_petal_width real,
+                iris_variety character varying                
+                );
+
+                copy iris_staging(iris_id, iris_sepal_length, iris_sepal_width, iris_petal_length, iris_petal_width, iris_variety)
+                from '/data/iris.csv'
+                delimiter ','
+                csv header;
+
+                insert into iris(iris_id, iris_sepal_length, iris_sepal_width, iris_petal_length, iris_petal_width, iris_variety)
+                select *
+                from iris_staging s
+                where not exists(
+                    select 1 from iris i where i.iris_id = s.iris_id
+                );
+            
+[2025-06-05T18:22:17.478+0000] {base.py:83} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2025-06-05T18:22:17.506+0000] {base.py:83} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2025-06-05T18:22:17.547+0000] {sql.py:450} INFO - Running statement: 
+                create temp table iris_staging(
+                iris_id real primary key,
+                iris_sepal_length real,
+                iris_sepal_width real,
+                iris_petal_length real,
+                iris_petal_width real,
+                iris_variety character varying                
+                );
+
+                copy iris_staging(iris_id, iris_sepal_length, iris_sepal_width, iris_petal_length, iris_petal_width, iris_variety)
+                from '/data/iris.csv'
+                delimiter ','
+                csv header;
+
+                insert into iris(iris_id, iris_sepal_length, iris_sepal_width, iris_petal_length, iris_petal_width, iris_variety)
+                select *
+                from iris_staging s
+                where not exists(
+                    select 1 from iris i where i.iris_id = s.iris_id
+                );
+            , parameters: None
+[2025-06-05T18:22:17.565+0000] {sql.py:459} INFO - Rows affected: 0
+[2025-06-05T18:22:17.581+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=postgres_etl, task_id=insert_into_table, execution_date=20250605T182211, start_date=20250605T182217, end_date=20250605T182217
+[2025-06-05T18:22:17.638+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-06-05T18:22:17.670+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

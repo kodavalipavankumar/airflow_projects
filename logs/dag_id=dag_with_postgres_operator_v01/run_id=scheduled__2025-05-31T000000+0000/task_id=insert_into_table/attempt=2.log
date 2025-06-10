@@ -1,0 +1,21 @@
+[2025-06-03T20:31:50.269+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_with_postgres_operator_v01.insert_into_table scheduled__2025-05-31T00:00:00+00:00 [queued]>
+[2025-06-03T20:31:50.285+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_with_postgres_operator_v01.insert_into_table scheduled__2025-05-31T00:00:00+00:00 [queued]>
+[2025-06-03T20:31:50.286+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 7
+[2025-06-03T20:31:50.306+0000] {taskinstance.py:2191} INFO - Executing <Task(PostgresOperator): insert_into_table> on 2025-05-31 00:00:00+00:00
+[2025-06-03T20:31:50.314+0000] {standard_task_runner.py:60} INFO - Started process 64879 to run task
+[2025-06-03T20:31:50.318+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dag_with_postgres_operator_v01', 'insert_into_table', 'scheduled__2025-05-31T00:00:00+00:00', '--job-id', '380', '--raw', '--subdir', 'DAGS_FOLDER/postgresql_dag.py', '--cfg-path', '/tmp/tmp00irz169']
+[2025-06-03T20:31:50.320+0000] {standard_task_runner.py:88} INFO - Job 380: Subtask insert_into_table
+[2025-06-03T20:31:50.419+0000] {task_command.py:423} INFO - Running <TaskInstance: dag_with_postgres_operator_v01.insert_into_table scheduled__2025-05-31T00:00:00+00:00 [running]> on host 4bea2aab752f
+[2025-06-03T20:31:50.576+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='coder2j' AIRFLOW_CTX_DAG_ID='dag_with_postgres_operator_v01' AIRFLOW_CTX_TASK_ID='insert_into_table' AIRFLOW_CTX_EXECUTION_DATE='2025-05-31T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-31T00:00:00+00:00'
+[2025-06-03T20:31:50.578+0000] {sql.py:276} INFO - Executing: 
+            insert into dag_runs (dt, dag_id) values ('2025-05-31', 'dag_with_postgres_operator_v01')
+        
+[2025-06-03T20:31:50.597+0000] {base.py:83} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2025-06-03T20:31:50.617+0000] {base.py:83} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2025-06-03T20:31:50.650+0000] {sql.py:450} INFO - Running statement: 
+            insert into dag_runs (dt, dag_id) values ('2025-05-31', 'dag_with_postgres_operator_v01')
+        , parameters: None
+[2025-06-03T20:31:50.658+0000] {sql.py:459} INFO - Rows affected: 1
+[2025-06-03T20:31:50.684+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dag_with_postgres_operator_v01, task_id=insert_into_table, execution_date=20250531T000000, start_date=20250603T203150, end_date=20250603T203150
+[2025-06-03T20:31:50.733+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-06-03T20:31:50.759+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

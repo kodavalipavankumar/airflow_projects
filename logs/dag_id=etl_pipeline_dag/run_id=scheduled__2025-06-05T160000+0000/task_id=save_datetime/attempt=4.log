@@ -1,0 +1,32 @@
+[2025-06-05T16:25:10.983+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_pipeline_dag.save_datetime scheduled__2025-06-05T16:00:00+00:00 [queued]>
+[2025-06-05T16:25:10.996+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_pipeline_dag.save_datetime scheduled__2025-06-05T16:00:00+00:00 [queued]>
+[2025-06-05T16:25:10.997+0000] {taskinstance.py:2170} INFO - Starting attempt 4 of 4
+[2025-06-05T16:25:11.013+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): save_datetime> on 2025-06-05 16:00:00+00:00
+[2025-06-05T16:25:11.019+0000] {standard_task_runner.py:60} INFO - Started process 72070 to run task
+[2025-06-05T16:25:11.023+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'etl_pipeline_dag', 'save_datetime', 'scheduled__2025-06-05T16:00:00+00:00', '--job-id', '113', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmp2qxe7fd6']
+[2025-06-05T16:25:11.026+0000] {standard_task_runner.py:88} INFO - Job 113: Subtask save_datetime
+[2025-06-05T16:25:11.102+0000] {task_command.py:423} INFO - Running <TaskInstance: etl_pipeline_dag.save_datetime scheduled__2025-06-05T16:00:00+00:00 [running]> on host 14aa2e8b0b7d
+[2025-06-05T16:25:11.511+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Pavan Kumar Kodavali' AIRFLOW_CTX_DAG_ID='etl_pipeline_dag' AIRFLOW_CTX_TASK_ID='save_datetime' AIRFLOW_CTX_EXECUTION_DATE='2025-06-05T16:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-06-05T16:00:00+00:00'
+[2025-06-05T16:25:11.575+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/etl_dag.py", line 54, in save_datetime
+    df.to_csv(csv_path, index=False, mode=df_mode, header=df_header)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 3772, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/formats/format.py", line 1186, in to_csv
+    csv_formatter.save()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/formats/csvs.py", line 240, in save
+    with get_handle(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+PermissionError: [Errno 13] Permission denied: '/tmp/datetimes.csv'
+[2025-06-05T16:25:11.596+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=etl_pipeline_dag, task_id=save_datetime, execution_date=20250605T160000, start_date=20250605T162510, end_date=20250605T162511
+[2025-06-05T16:25:11.610+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 113 for task save_datetime ([Errno 13] Permission denied: '/tmp/datetimes.csv'; 72070)
+[2025-06-05T16:25:11.641+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-06-05T16:25:11.672+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

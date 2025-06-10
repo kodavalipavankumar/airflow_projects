@@ -1,0 +1,539 @@
+[2025-06-06T13:51:45.685+0000] {processor.py:161} INFO - Started process (PID=8647) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T13:51:45.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T13:51:45.704+0000] {logging_mixin.py:188} INFO - [2025-06-06T13:51:45.704+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T13:51:45.838+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T13:51:46.258+0000] {logging_mixin.py:188} INFO - [2025-06-06T13:51:46.257+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T13:51:46.321+0000] {logging_mixin.py:188} INFO - [2025-06-06T13:51:46.321+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T13:51:46.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.771 seconds
+[2025-06-06T14:26:50.764+0000] {processor.py:161} INFO - Started process (PID=8670) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:26:50.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:26:50.774+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:26:50.773+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:26:50.942+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:26:51.015+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:26:51.014+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:26:51.082+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:26:51.081+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:26:51.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.392 seconds
+[2025-06-06T14:27:22.071+0000] {processor.py:161} INFO - Started process (PID=8693) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:27:22.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:27:22.078+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:27:22.077+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:27:22.121+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:27:22.158+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:27:22.158+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:27:22.197+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:27:22.197+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:27:22.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.163 seconds
+[2025-06-06T14:27:53.211+0000] {processor.py:161} INFO - Started process (PID=8716) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:27:53.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:27:53.215+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:27:53.215+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:27:53.261+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:27:53.303+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:27:53.302+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:27:53.336+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:27:53.336+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:27:53.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.381 seconds
+[2025-06-06T14:28:25.102+0000] {processor.py:161} INFO - Started process (PID=8739) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:28:25.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:28:25.110+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:28:25.108+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:28:25.176+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:28:25.299+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:28:25.298+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:28:25.347+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:28:25.346+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:28:25.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.305 seconds
+[2025-06-06T14:28:57.765+0000] {processor.py:161} INFO - Started process (PID=8762) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:28:57.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:28:57.777+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:28:57.776+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:28:58.108+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:28:58.288+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:28:58.288+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:28:58.410+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:28:58.409+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:28:58.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.827 seconds
+[2025-06-06T14:29:29.404+0000] {processor.py:161} INFO - Started process (PID=8784) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:29:29.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:29:29.413+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:29:29.410+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:29:29.556+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:29:29.743+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:29:29.735+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:29:29.860+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:29:29.859+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:29:29.973+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.585 seconds
+[2025-06-06T14:30:05.331+0000] {processor.py:161} INFO - Started process (PID=8809) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:30:05.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:30:05.372+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:30:05.370+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:30:06.033+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:30:06.239+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:30:06.238+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:30:06.398+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:30:06.397+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:30:06.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 1.245 seconds
+[2025-06-06T14:30:37.964+0000] {processor.py:161} INFO - Started process (PID=8832) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:30:37.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:30:37.987+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:30:37.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:30:38.131+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:30:38.257+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:30:38.256+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:30:38.359+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:30:38.359+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:30:38.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.484 seconds
+[2025-06-06T14:31:09.356+0000] {processor.py:161} INFO - Started process (PID=8855) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:31:09.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:31:09.362+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:31:09.361+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:31:09.433+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:31:09.580+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:31:09.579+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:31:09.667+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:31:09.666+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:31:09.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.392 seconds
+[2025-06-06T14:31:40.760+0000] {processor.py:161} INFO - Started process (PID=8878) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:31:40.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:31:40.767+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:31:40.766+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:31:40.835+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:31:40.920+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:31:40.919+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:31:41.024+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:31:41.023+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:31:41.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.381 seconds
+[2025-06-06T14:32:11.734+0000] {processor.py:161} INFO - Started process (PID=8901) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:32:11.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:32:11.743+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:32:11.742+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:32:11.830+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:32:11.902+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:32:11.902+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:32:11.969+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:32:11.969+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:32:12.040+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.321 seconds
+[2025-06-06T14:32:43.018+0000] {processor.py:161} INFO - Started process (PID=8924) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:32:43.021+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:32:43.025+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:32:43.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:32:43.065+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:32:43.116+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:32:43.116+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:32:43.216+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:32:43.215+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:32:43.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.280 seconds
+[2025-06-06T14:33:14.160+0000] {processor.py:161} INFO - Started process (PID=8954) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:33:14.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:33:14.164+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:33:14.164+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:33:14.239+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:33:14.308+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:33:14.308+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:33:14.361+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:33:14.360+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:33:14.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.296 seconds
+[2025-06-06T14:33:46.322+0000] {processor.py:161} INFO - Started process (PID=8977) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:33:46.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:33:46.327+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:33:46.327+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:33:46.374+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:33:46.421+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:33:46.421+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:33:46.459+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:33:46.459+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:33:46.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.280 seconds
+[2025-06-06T14:34:17.181+0000] {processor.py:161} INFO - Started process (PID=8999) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:34:17.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:34:17.199+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:34:17.198+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:34:17.313+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:34:17.403+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:34:17.403+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:34:17.436+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:34:17.435+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:34:17.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.321 seconds
+[2025-06-06T14:34:47.870+0000] {processor.py:161} INFO - Started process (PID=9021) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:34:47.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:34:47.877+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:34:47.876+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:34:47.952+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:34:48.044+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:34:48.043+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:34:48.150+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:34:48.149+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:34:48.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.374 seconds
+[2025-06-06T14:35:19.174+0000] {processor.py:161} INFO - Started process (PID=9045) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:35:19.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:35:19.182+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:35:19.181+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:35:19.254+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:35:19.338+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:35:19.338+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:35:19.398+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:35:19.397+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:35:19.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.282 seconds
+[2025-06-06T14:35:50.401+0000] {processor.py:161} INFO - Started process (PID=9068) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:35:50.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:35:50.418+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:35:50.417+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:35:50.468+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:35:50.521+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:35:50.521+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:35:50.565+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:35:50.564+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:35:50.625+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.251 seconds
+[2025-06-06T14:36:22.690+0000] {processor.py:161} INFO - Started process (PID=9092) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:36:22.692+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:36:22.694+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:36:22.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:36:22.745+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:36:22.796+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:36:22.796+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:36:22.842+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:36:22.842+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:36:22.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.241 seconds
+[2025-06-06T14:36:53.556+0000] {processor.py:161} INFO - Started process (PID=9115) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:36:53.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:36:53.562+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:36:53.562+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:36:53.620+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:36:53.668+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:36:53.668+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:36:53.706+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:36:53.705+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:36:53.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.224 seconds
+[2025-06-06T14:37:25.454+0000] {processor.py:161} INFO - Started process (PID=9138) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:37:25.457+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:37:25.461+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:37:25.459+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:37:25.522+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:37:25.623+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:37:25.623+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:37:25.667+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:37:25.666+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:37:25.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.267 seconds
+[2025-06-06T14:37:56.599+0000] {processor.py:161} INFO - Started process (PID=9161) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:37:56.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:37:56.608+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:37:56.607+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:37:56.775+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:37:56.880+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:37:56.879+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:37:56.940+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:37:56.940+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:37:56.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.411 seconds
+[2025-06-06T14:38:27.492+0000] {processor.py:161} INFO - Started process (PID=9183) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:38:27.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:38:27.498+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:38:27.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:38:27.576+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:38:27.647+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:38:27.646+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:38:27.710+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:38:27.710+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:38:27.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.285 seconds
+[2025-06-06T14:38:58.017+0000] {processor.py:161} INFO - Started process (PID=9205) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:38:58.021+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:38:58.026+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:38:58.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:38:58.161+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:38:58.220+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:38:58.219+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:38:58.293+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:38:58.292+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:38:58.352+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.341 seconds
+[2025-06-06T14:39:28.680+0000] {processor.py:161} INFO - Started process (PID=9226) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:39:28.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:39:28.689+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:39:28.688+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:39:28.760+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:39:28.879+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:39:28.878+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:39:28.939+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:39:28.938+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:39:29.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.341 seconds
+[2025-06-06T14:39:59.563+0000] {processor.py:161} INFO - Started process (PID=9248) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:39:59.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:39:59.571+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:39:59.570+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:39:59.634+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:39:59.736+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:39:59.733+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:39:59.807+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:39:59.806+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:39:59.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.342 seconds
+[2025-06-06T14:40:30.728+0000] {processor.py:161} INFO - Started process (PID=9271) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:40:30.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:40:30.735+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:40:30.734+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:40:30.804+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:40:30.897+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:40:30.896+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:40:30.945+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:40:30.944+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:40:31.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.328 seconds
+[2025-06-06T14:41:01.681+0000] {processor.py:161} INFO - Started process (PID=9293) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:41:01.685+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:41:01.689+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:41:01.688+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:41:01.792+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:41:01.863+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:41:01.862+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:41:01.924+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:41:01.923+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:41:01.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.336 seconds
+[2025-06-06T14:41:32.691+0000] {processor.py:161} INFO - Started process (PID=9315) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:41:32.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:41:32.709+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:41:32.708+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:41:32.779+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:41:32.864+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:41:32.863+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:41:32.940+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:41:32.939+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:41:33.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.338 seconds
+[2025-06-06T14:42:03.489+0000] {processor.py:161} INFO - Started process (PID=9338) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:42:03.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:42:03.496+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:42:03.494+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:42:03.593+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:42:03.664+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:42:03.663+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:42:03.769+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:42:03.769+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:42:03.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.348 seconds
+[2025-06-06T14:42:34.138+0000] {processor.py:161} INFO - Started process (PID=9361) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:42:34.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:42:34.152+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:42:34.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:42:34.239+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:42:34.307+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:42:34.306+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:42:34.348+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:42:34.348+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:42:34.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.268 seconds
+[2025-06-06T14:43:05.041+0000] {processor.py:161} INFO - Started process (PID=9384) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:43:05.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:43:05.048+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:43:05.047+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:43:05.099+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:43:05.167+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:43:05.166+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:43:05.219+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:43:05.218+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:43:05.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.241 seconds
+[2025-06-06T14:43:35.745+0000] {processor.py:161} INFO - Started process (PID=9407) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:43:35.750+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:43:35.754+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:43:35.753+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:43:35.854+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:43:35.962+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:43:35.961+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:43:36.078+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:43:36.077+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:43:36.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.444 seconds
+[2025-06-06T14:44:06.690+0000] {processor.py:161} INFO - Started process (PID=9429) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:44:06.692+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:44:06.697+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:44:06.695+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:44:06.777+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:44:06.836+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:44:06.836+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:44:06.893+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:44:06.893+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:44:06.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.285 seconds
+[2025-06-06T14:44:37.331+0000] {processor.py:161} INFO - Started process (PID=9452) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:44:37.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:44:37.337+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:44:37.336+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:44:37.486+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:44:37.575+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:44:37.573+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:44:37.643+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:44:37.642+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:44:37.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.383 seconds
+[2025-06-06T14:45:08.002+0000] {processor.py:161} INFO - Started process (PID=9475) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:45:08.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:45:08.013+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:45:08.011+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:45:08.074+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:45:08.134+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:45:08.133+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:45:08.171+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:45:08.171+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:45:08.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.214 seconds
+[2025-06-06T14:45:38.410+0000] {processor.py:161} INFO - Started process (PID=9498) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:45:38.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:45:38.416+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:45:38.415+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:45:38.569+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:45:38.679+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:45:38.678+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:45:38.772+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:45:38.771+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:45:38.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.429 seconds
+[2025-06-06T14:46:09.073+0000] {processor.py:161} INFO - Started process (PID=9521) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:46:09.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:46:09.077+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:46:09.076+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:46:09.175+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:46:09.250+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:46:09.249+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:46:09.306+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:46:09.306+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:46:09.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.300 seconds
+[2025-06-06T14:46:40.291+0000] {processor.py:161} INFO - Started process (PID=9544) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:46:40.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:46:40.300+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:46:40.298+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:46:40.432+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:46:40.618+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:46:40.617+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:46:40.684+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:46:40.684+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:46:40.773+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.490 seconds
+[2025-06-06T14:47:11.216+0000] {processor.py:161} INFO - Started process (PID=9567) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:47:11.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:47:11.222+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:47:11.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:47:11.282+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:47:11.337+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:47:11.336+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:47:11.395+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:47:11.394+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:47:11.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.226 seconds
+[2025-06-06T14:47:42.010+0000] {processor.py:161} INFO - Started process (PID=9590) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:47:42.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:47:42.021+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:47:42.020+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:47:42.132+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:47:42.246+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:47:42.244+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:47:42.293+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:47:42.293+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:47:42.362+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.360 seconds
+[2025-06-06T14:48:12.929+0000] {processor.py:161} INFO - Started process (PID=9613) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:48:12.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:48:12.936+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:48:12.935+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:48:12.990+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:48:13.116+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:48:13.116+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:48:13.183+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:48:13.183+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:48:13.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.338 seconds
+[2025-06-06T14:48:43.753+0000] {processor.py:161} INFO - Started process (PID=9640) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:48:43.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:48:43.767+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:48:43.766+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:48:43.872+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:48:43.965+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:48:43.964+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:48:44.018+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:48:44.017+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:48:44.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.317 seconds
+[2025-06-06T14:49:14.469+0000] {processor.py:161} INFO - Started process (PID=9663) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:49:14.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:49:14.483+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:49:14.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:49:14.636+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:49:14.733+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:49:14.731+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:49:14.807+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:49:14.806+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:49:14.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.420 seconds
+[2025-06-06T14:49:45.614+0000] {processor.py:161} INFO - Started process (PID=9687) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:49:45.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:49:45.634+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:49:45.633+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:49:45.777+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:49:45.880+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:49:45.880+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:49:45.950+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:49:45.950+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:49:46.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.463 seconds
+[2025-06-06T14:50:16.330+0000] {processor.py:161} INFO - Started process (PID=9710) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:50:16.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:50:16.347+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:50:16.346+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:50:16.437+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:50:16.527+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:50:16.527+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:50:16.581+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:50:16.580+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:50:16.636+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.327 seconds
+[2025-06-06T14:50:47.680+0000] {processor.py:161} INFO - Started process (PID=9733) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:50:47.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:50:47.687+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:50:47.686+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:50:47.844+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:50:47.900+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:50:47.899+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:50:47.938+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:50:47.937+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:50:47.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.325 seconds
+[2025-06-06T14:51:18.267+0000] {processor.py:161} INFO - Started process (PID=9756) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:51:18.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:51:18.271+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:51:18.271+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:51:18.325+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:51:18.381+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:51:18.380+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:51:18.458+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:51:18.457+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:51:18.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.259 seconds
+[2025-06-06T14:51:49.489+0000] {processor.py:161} INFO - Started process (PID=9786) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:51:49.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:51:49.499+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:51:49.497+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:51:49.602+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:51:49.686+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:51:49.685+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:51:49.767+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:51:49.767+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:51:49.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.339 seconds
+[2025-06-06T14:52:20.488+0000] {processor.py:161} INFO - Started process (PID=9809) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:52:20.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:52:20.493+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:52:20.493+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:52:20.551+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:52:20.646+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:52:20.645+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:52:20.700+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:52:20.700+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:52:20.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.301 seconds
+[2025-06-06T14:52:51.964+0000] {processor.py:161} INFO - Started process (PID=9832) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:52:51.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:52:51.995+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:52:51.994+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:52:52.126+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:52:52.216+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:52:52.215+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:52:52.300+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:52:52.300+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:52:52.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.416 seconds
+[2025-06-06T14:53:22.922+0000] {processor.py:161} INFO - Started process (PID=9855) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:53:22.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:53:22.937+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:53:22.936+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:53:23.029+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:53:23.092+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:53:23.091+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:53:23.178+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:53:23.174+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:53:23.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.390 seconds
+[2025-06-06T14:53:53.641+0000] {processor.py:161} INFO - Started process (PID=9878) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:53:53.644+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:53:53.648+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:53:53.647+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:53:53.719+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:53:53.828+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:53:53.827+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:53:53.897+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:53:53.896+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:53:53.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.321 seconds
+[2025-06-06T14:54:24.145+0000] {processor.py:161} INFO - Started process (PID=9900) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:54:24.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:54:24.151+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:54:24.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:54:24.199+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:54:24.244+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:54:24.244+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:54:24.280+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:54:24.279+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:54:24.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.179 seconds
+[2025-06-06T14:54:54.760+0000] {processor.py:161} INFO - Started process (PID=9923) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:54:54.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:54:54.771+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:54:54.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:54:54.853+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:54:54.994+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:54:54.994+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:54:55.081+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:54:55.080+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:54:55.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.401 seconds
+[2025-06-06T14:55:25.737+0000] {processor.py:161} INFO - Started process (PID=9947) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:55:25.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:55:25.743+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:55:25.742+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:55:25.807+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:55:25.864+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:55:25.863+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:55:25.915+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:55:25.915+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:55:25.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.260 seconds
+[2025-06-06T14:55:56.372+0000] {processor.py:161} INFO - Started process (PID=9970) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:55:56.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:55:56.381+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:55:56.381+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:55:56.508+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:55:56.574+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:55:56.574+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:55:56.622+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:55:56.621+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:55:56.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.307 seconds
+[2025-06-06T14:56:26.984+0000] {processor.py:161} INFO - Started process (PID=9993) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:56:26.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:56:26.988+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:56:26.988+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:56:27.051+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:56:27.109+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:56:27.108+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:56:27.146+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:56:27.146+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:56:27.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.209 seconds
+[2025-06-06T14:56:57.406+0000] {processor.py:161} INFO - Started process (PID=10016) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:56:57.409+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:56:57.412+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:56:57.411+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:56:57.473+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:56:57.526+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:56:57.525+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:56:57.569+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:56:57.569+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:56:57.624+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.222 seconds
+[2025-06-06T14:57:27.899+0000] {processor.py:161} INFO - Started process (PID=10039) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:57:27.902+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:57:27.904+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:57:27.903+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:57:28.016+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:57:28.109+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:57:28.109+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:57:28.159+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:57:28.158+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:57:28.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.377 seconds
+[2025-06-06T14:57:58.645+0000] {processor.py:161} INFO - Started process (PID=10062) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:57:58.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:57:58.652+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:57:58.651+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:57:58.744+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:57:58.829+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:57:58.829+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:57:58.874+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:57:58.873+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:57:58.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.320 seconds
+[2025-06-06T14:58:29.433+0000] {processor.py:161} INFO - Started process (PID=10085) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:58:29.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:58:29.438+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:58:29.438+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:58:29.491+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:58:29.550+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:58:29.549+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:58:29.581+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:58:29.581+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:58:29.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.215 seconds
+[2025-06-06T14:59:00.412+0000] {processor.py:161} INFO - Started process (PID=10108) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:59:00.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:59:00.420+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:59:00.419+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:59:00.497+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:59:00.566+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:59:00.566+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:59:00.602+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:59:00.601+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:59:00.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.245 seconds
+[2025-06-06T14:59:31.601+0000] {processor.py:161} INFO - Started process (PID=10131) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:59:31.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T14:59:31.638+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:59:31.637+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:59:31.717+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T14:59:31.782+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:59:31.781+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T14:59:31.836+0000] {logging_mixin.py:188} INFO - [2025-06-06T14:59:31.830+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T14:59:31.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.316 seconds
+[2025-06-06T15:00:02.513+0000] {processor.py:161} INFO - Started process (PID=10155) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:00:02.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T15:00:02.531+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:00:02.529+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:00:02.651+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:00:02.802+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:00:02.801+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T15:00:02.868+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:00:02.866+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T15:00:02.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.427 seconds
+[2025-06-06T15:00:33.657+0000] {processor.py:161} INFO - Started process (PID=10178) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:00:33.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T15:00:33.662+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:00:33.661+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:00:33.751+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:00:33.844+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:00:33.844+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T15:00:33.944+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:00:33.942+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T15:00:34.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.358 seconds
+[2025-06-06T15:01:04.363+0000] {processor.py:161} INFO - Started process (PID=10201) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:01:04.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T15:01:04.375+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:01:04.374+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:01:04.470+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:01:04.518+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:01:04.518+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T15:01:04.602+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:01:04.602+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T15:01:04.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.319 seconds
+[2025-06-06T15:01:35.900+0000] {processor.py:161} INFO - Started process (PID=10224) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:01:35.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T15:01:35.919+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:01:35.918+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:01:36.002+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:01:36.095+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:01:36.095+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T15:01:36.150+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:01:36.150+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T15:01:36.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.333 seconds
+[2025-06-06T15:02:07.689+0000] {processor.py:161} INFO - Started process (PID=10247) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:02:07.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T15:02:07.698+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:02:07.697+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:02:07.773+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:02:07.851+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:02:07.850+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T15:02:07.902+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:02:07.901+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T15:02:07.998+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.321 seconds
+[2025-06-06T15:02:39.479+0000] {processor.py:161} INFO - Started process (PID=10270) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:02:39.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T15:02:39.491+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:02:39.490+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:02:39.561+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:02:39.639+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:02:39.638+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T15:02:39.697+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:02:39.696+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T15:02:39.758+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.288 seconds
+[2025-06-06T15:03:10.757+0000] {processor.py:161} INFO - Started process (PID=10293) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:03:10.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T15:03:10.774+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:03:10.773+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:03:10.894+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:03:10.943+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:03:10.942+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T15:03:10.984+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:03:10.984+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T15:03:11.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.280 seconds
+[2025-06-06T15:03:42.715+0000] {processor.py:161} INFO - Started process (PID=10315) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:03:42.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T15:03:42.722+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:03:42.721+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:03:42.790+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:03:42.946+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:03:42.945+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T15:03:43.048+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:03:43.048+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T15:03:43.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.429 seconds
+[2025-06-06T15:04:14.116+0000] {processor.py:161} INFO - Started process (PID=10338) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:04:14.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T15:04:14.122+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:04:14.121+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:04:14.210+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:04:14.260+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:04:14.260+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T15:04:14.319+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:04:14.318+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T15:04:14.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.275 seconds
+[2025-06-06T15:04:45.330+0000] {processor.py:161} INFO - Started process (PID=10361) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:04:45.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T15:04:45.336+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:04:45.335+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:04:45.396+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:04:45.456+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:04:45.455+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T15:04:45.517+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:04:45.516+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T15:04:45.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.243 seconds
+[2025-06-06T15:05:17.225+0000] {processor.py:161} INFO - Started process (PID=10384) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:05:17.228+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T15:05:17.232+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:05:17.231+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:05:17.316+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:05:17.423+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:05:17.422+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T15:05:17.525+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:05:17.525+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T15:05:17.608+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.390 seconds
+[2025-06-06T15:05:49.028+0000] {processor.py:161} INFO - Started process (PID=10406) to work on /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:05:49.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/all_about_bashoperators.py for tasks to queue
+[2025-06-06T15:05:49.037+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:05:49.035+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:05:49.090+0000] {processor.py:840} INFO - DAG(s) 'bashoperator_dag' retrieved from /opt/airflow/dags/all_about_bashoperators.py
+[2025-06-06T15:05:49.144+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:05:49.144+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-06T15:05:49.217+0000] {logging_mixin.py:188} INFO - [2025-06-06T15:05:49.216+0000] {dag.py:3823} INFO - Setting next_dagrun for bashoperator_dag to 2025-06-05 10:00:00+00:00, run_after=2025-06-06 10:00:00+00:00
+[2025-06-06T15:05:49.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/all_about_bashoperators.py took 0.261 seconds

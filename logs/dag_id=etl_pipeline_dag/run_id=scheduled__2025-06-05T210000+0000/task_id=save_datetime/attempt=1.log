@@ -1,0 +1,13 @@
+[2025-06-05T21:10:49.169+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_pipeline_dag.save_datetime scheduled__2025-06-05T21:00:00+00:00 [queued]>
+[2025-06-05T21:10:49.182+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_pipeline_dag.save_datetime scheduled__2025-06-05T21:00:00+00:00 [queued]>
+[2025-06-05T21:10:49.183+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-06-05T21:10:49.218+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): save_datetime> on 2025-06-05 21:00:00+00:00
+[2025-06-05T21:10:49.236+0000] {standard_task_runner.py:60} INFO - Started process 83889 to run task
+[2025-06-05T21:10:49.245+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'etl_pipeline_dag', 'save_datetime', 'scheduled__2025-06-05T21:00:00+00:00', '--job-id', '219', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmphaeqg53t']
+[2025-06-05T21:10:49.252+0000] {standard_task_runner.py:88} INFO - Job 219: Subtask save_datetime
+[2025-06-05T21:10:49.370+0000] {task_command.py:423} INFO - Running <TaskInstance: etl_pipeline_dag.save_datetime scheduled__2025-06-05T21:00:00+00:00 [running]> on host 130e285787a3
+[2025-06-05T21:10:49.732+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Pavan Kumar Kodavali' AIRFLOW_CTX_DAG_ID='etl_pipeline_dag' AIRFLOW_CTX_TASK_ID='save_datetime' AIRFLOW_CTX_EXECUTION_DATE='2025-06-05T21:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-06-05T21:00:00+00:00'
+[2025-06-05T21:10:49.818+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-06-05T21:10:49.845+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=etl_pipeline_dag, task_id=save_datetime, execution_date=20250605T210000, start_date=20250605T211049, end_date=20250605T211049
+[2025-06-05T21:10:49.899+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-06-05T21:10:49.929+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

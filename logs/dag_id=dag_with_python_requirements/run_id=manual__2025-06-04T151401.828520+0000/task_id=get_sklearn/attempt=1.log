@@ -1,0 +1,14 @@
+[2025-06-04T15:14:04.586+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_with_python_requirements.get_sklearn manual__2025-06-04T15:14:01.828520+00:00 [queued]>
+[2025-06-04T15:14:04.606+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_with_python_requirements.get_sklearn manual__2025-06-04T15:14:01.828520+00:00 [queued]>
+[2025-06-04T15:14:04.608+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-06-04T15:14:04.635+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): get_sklearn> on 2025-06-04 15:14:01.828520+00:00
+[2025-06-04T15:14:04.643+0000] {standard_task_runner.py:60} INFO - Started process 7036 to run task
+[2025-06-04T15:14:04.652+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dag_with_python_requirements', 'get_sklearn', 'manual__2025-06-04T15:14:01.828520+00:00', '--job-id', '399', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_python_requirements.py', '--cfg-path', '/tmp/tmp_mes6_vu']
+[2025-06-04T15:14:04.656+0000] {standard_task_runner.py:88} INFO - Job 399: Subtask get_sklearn
+[2025-06-04T15:14:04.774+0000] {task_command.py:423} INFO - Running <TaskInstance: dag_with_python_requirements.get_sklearn manual__2025-06-04T15:14:01.828520+00:00 [running]> on host 7f7982bbb8cc
+[2025-06-04T15:14:04.908+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Pavan Kumar Kodavali' AIRFLOW_CTX_DAG_ID='dag_with_python_requirements' AIRFLOW_CTX_TASK_ID='get_sklearn' AIRFLOW_CTX_EXECUTION_DATE='2025-06-04T15:14:01.828520+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-04T15:14:01.828520+00:00'
+[2025-06-04T15:14:06.459+0000] {logging_mixin.py:188} INFO - SK-Learn Version is:1.3.2
+[2025-06-04T15:14:06.460+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-06-04T15:14:06.484+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dag_with_python_requirements, task_id=get_sklearn, execution_date=20250604T151401, start_date=20250604T151404, end_date=20250604T151406
+[2025-06-04T15:14:06.536+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-06-04T15:14:06.556+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

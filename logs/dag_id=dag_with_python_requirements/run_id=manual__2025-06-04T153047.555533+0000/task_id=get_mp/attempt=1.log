@@ -1,0 +1,24 @@
+[2025-06-04T15:30:52.172+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_with_python_requirements.get_mp manual__2025-06-04T15:30:47.555533+00:00 [queued]>
+[2025-06-04T15:30:52.187+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_with_python_requirements.get_mp manual__2025-06-04T15:30:47.555533+00:00 [queued]>
+[2025-06-04T15:30:52.188+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-06-04T15:30:52.209+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): get_mp> on 2025-06-04 15:30:47.555533+00:00
+[2025-06-04T15:30:52.219+0000] {standard_task_runner.py:60} INFO - Started process 21978 to run task
+[2025-06-04T15:30:52.228+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dag_with_python_requirements', 'get_mp', 'manual__2025-06-04T15:30:47.555533+00:00', '--job-id', '402', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_python_requirements.py', '--cfg-path', '/tmp/tmp8rhj3juc']
+[2025-06-04T15:30:52.231+0000] {standard_task_runner.py:88} INFO - Job 402: Subtask get_mp
+[2025-06-04T15:30:52.357+0000] {task_command.py:423} INFO - Running <TaskInstance: dag_with_python_requirements.get_mp manual__2025-06-04T15:30:47.555533+00:00 [running]> on host 7f7982bbb8cc
+[2025-06-04T15:30:52.532+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Pavan Kumar Kodavali' AIRFLOW_CTX_DAG_ID='dag_with_python_requirements' AIRFLOW_CTX_TASK_ID='get_mp' AIRFLOW_CTX_EXECUTION_DATE='2025-06-04T15:30:47.555533+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-04T15:30:47.555533+00:00'
+[2025-06-04T15:30:52.541+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_with_python_requirements.py", line 19, in get_matplotlib
+    import matplotlib as mp
+ModuleNotFoundError: No module named 'matplotlib'
+[2025-06-04T15:30:52.581+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=dag_with_python_requirements, task_id=get_mp, execution_date=20250604T153047, start_date=20250604T153052, end_date=20250604T153052
+[2025-06-04T15:30:52.609+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 402 for task get_mp (No module named 'matplotlib'; 21978)
+[2025-06-04T15:30:52.649+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-06-04T15:30:52.686+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

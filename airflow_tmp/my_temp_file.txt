@@ -1,0 +1,4 @@
+Hello from Airflow container
+
+List of DAGs:
+-rwxrwxrwx 1 root    root    0 Jun  2 20:48 welcome_Dag.py
